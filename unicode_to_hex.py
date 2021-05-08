@@ -48,4 +48,3 @@ if __name__ == '__main__':
     a = '+./¥'
     result = get_hex_back(a)  # => {'int_part': ['002B'], 'decimal_part': ['002F', '00A5']}
     print(result)
-
